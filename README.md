@@ -37,6 +37,8 @@ DB_PORT=3306
 DB_USERNAME=tu_usuario
 DB_PASSWORD=tu_contraseña
 DB_NAME=nombre_de_tu_bd
+JWT_CONSTANTS=Semilla_Secreta
+
 3. Configuración de la Base de Datos
 El archivo de respaldo (dump) de la base de datos se encuentra en la raíz del proyecto (archivo .sql). Para configurarla:
 
