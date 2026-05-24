@@ -4,6 +4,7 @@ import { configuration, DatabaseModule } from '@/core';
 import { UsersModule } from '@/modules/users/users.module';
 import { AuthModule } from '@/modules/auth/auth.module';
 import { RoutesModule } from './modules/routes/routes.module';
+import { LocalitiesModule } from './modules/localities/localities.module';
 
 @Module({
   imports: [
@@ -14,7 +15,8 @@ import { RoutesModule } from './modules/routes/routes.module';
     DatabaseModule,
     UsersModule,
     AuthModule,
-    RoutesModule
+    RoutesModule,
+    LocalitiesModule
   ],
 })
 
