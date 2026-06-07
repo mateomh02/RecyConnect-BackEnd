@@ -8,7 +8,7 @@ import {
 } from 'typeorm';
 import { Locality } from './locality.entity';
 
-@Entity({ name: 'routesRecyclers' })
+@Entity({ name: 'routesrecyclers' })
 export class RouteRecycler {
     @PrimaryGeneratedColumn()
     id!: number;
